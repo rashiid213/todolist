@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #4a00e0, #8e2de2);
+    color: #333;
+}
+
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 img {
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#input:focus {
+    border-color: #8e2de2;
+}
+
+#add\ task {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 25px;
+    background: #ff6b6b;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#add\ task:hover {
+    background: #e55a5a;
+}
+.addtask{
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 25px;
+    background: #ff6b6b;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}.addtask:hover{background: #e55a5a;}
+ 
+
+#list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+#list li {
+    padding: 10px;
+    font-size: 16px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background 0.3s;
+}
+
+#list li:hover {
+    background: #f1f1f1;
+}
+
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+}
+
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+
+ 
+.checked{
+    color: #555;
+    text-decoration: line-through;
+
+}
